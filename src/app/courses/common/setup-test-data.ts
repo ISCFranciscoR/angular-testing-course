@@ -4,7 +4,7 @@ import {sortCoursesBySeqNo} from '../home/sort-course-by-seq';
 
 
 export function setupCourses() : Course[] {
-  return Object.values(COURSES).sort(sortCoursesBySeqNo) as Course[];
+	return Object.values(COURSES).sort(sortCoursesBySeqNo) as Course[];
 }
 
 

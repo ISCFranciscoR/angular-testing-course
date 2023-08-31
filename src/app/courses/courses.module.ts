@@ -30,45 +30,45 @@ import {CoursesService} from './services/courses.service';
 import {courseResolver} from './services/course.resolver';
 
 @NgModule({
-    declarations: [
-        HomeComponent,
-        AboutComponent,
-        CourseComponent,
-        CoursesCardListComponent,
-        CourseDialogComponent
-    ],
-    imports: [
-        CommonModule,
-        MatMenuModule,
-        MatButtonModule,
-        MatToolbarModule,
-        MatIconModule,
-        MatCardModule,
-        MatTabsModule,
-        MatSidenavModule,
-        MatListModule,
-        MatInputModule,
-        MatTableModule,
-        MatPaginatorModule,
-        MatSortModule,
-        MatProgressSpinnerModule,
-        MatDialogModule,
-        MatSelectModule,
-        MatDatepickerModule,
-        MatMomentDateModule,
-        ReactiveFormsModule,
-        AppRoutingModule
-    ],
-    exports: [
-        HomeComponent,
-        AboutComponent,
-        CourseComponent,
-        CoursesCardListComponent,
-        CourseDialogComponent
-    ],
-    providers: [
-        CoursesService
-    ]
+	declarations: [
+		HomeComponent,
+		AboutComponent,
+		CourseComponent,
+		CoursesCardListComponent,
+		CourseDialogComponent
+	],
+	imports: [
+		CommonModule,
+		MatMenuModule,
+		MatButtonModule,
+		MatToolbarModule,
+		MatIconModule,
+		MatCardModule,
+		MatTabsModule,
+		MatSidenavModule,
+		MatListModule,
+		MatInputModule,
+		MatTableModule,
+		MatPaginatorModule,
+		MatSortModule,
+		MatProgressSpinnerModule,
+		MatDialogModule,
+		MatSelectModule,
+		MatDatepickerModule,
+		MatMomentDateModule,
+		ReactiveFormsModule,
+		AppRoutingModule
+	],
+	exports: [
+		HomeComponent,
+		AboutComponent,
+		CourseComponent,
+		CoursesCardListComponent,
+		CourseDialogComponent
+	],
+	providers: [
+		CoursesService
+	]
 })export class CoursesModule {
 
 
